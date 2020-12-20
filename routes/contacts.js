@@ -33,5 +33,4 @@ router.delete('/:id', (req,res)=>{
     res.send('Delete contact');
 });
 
-
 module.exports = router;
