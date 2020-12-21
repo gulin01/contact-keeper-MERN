@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs')
 const User = require('../modules/User');
 const jwt = require('jsonwebtoken');
 const config = require('config');
-const { check, validationResult } = require('express-validator');
+const { check, validationResult } = require('express-validator'); 
 
 
 // @route    POST api/users
