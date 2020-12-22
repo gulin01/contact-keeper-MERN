@@ -2,7 +2,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const app = express();
 
-// ConnectDB
+// Connect to mongoDB 
 connectDB();
 
 

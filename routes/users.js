@@ -51,7 +51,7 @@ async(req, res)=>{
          }
      }
 
-
+    //  returns a valid token for a user to auth
      jwt.sign(payload,config.get('jwtSecret'), {
          expiresIn: 3600000
      },(err,token) =>{

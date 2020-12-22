@@ -5,6 +5,7 @@ const config = require('config');
 
 
 
+// Middle ware file to check if user is valid
 
 module.exports = function(req,res,next){
     // Get the token from the header
