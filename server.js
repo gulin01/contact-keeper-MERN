@@ -11,9 +11,9 @@ connectDB();
 
 app.use(express.json({ extended: false }));
 
-app.get('/',(req,res)=>{
-    res.json({msg: 'Welcome to the Contact keeper Api'});
-})
+// app.get('/',(req,res)=>{
+//     res.json({msg: 'Welcome to the Contact keeper Api'});
+// })
 
 
 // Define Routes 
